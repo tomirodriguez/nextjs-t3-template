@@ -1,5 +1,5 @@
 {
-  "name": "bar-logger",
+  "name": "nextjs-t3-template",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,9 @@
     "start": "next start"
   },
   "dependencies": {
+    "@planetscale/database": "^1.10.0",
     "@t3-oss/env-nextjs": "^0.3.1",
+    "drizzle-orm": "^0.28.2",
     "next": "^13.4.13",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -24,6 +26,7 @@
     "@typescript-eslint/eslint-plugin": "6.0.0",
     "@typescript-eslint/parser": "6.0.0",
     "autoprefixer": "^10.4.14",
+    "drizzle-kit": "^0.19.12",
     "eslint": "^8.47.0",
     "eslint-config-next": "^13.4.13",
     "postcss": "^8.4.27",
