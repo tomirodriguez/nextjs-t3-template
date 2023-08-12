@@ -6,7 +6,9 @@
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
-    "start": "next start"
+    "start": "next start",
+    "db:push": "drizzle-kit push:mysql --config drizzle.config.ts",
+    "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
     "@planetscale/database": "^1.10.0",
@@ -26,6 +28,7 @@
     "@typescript-eslint/eslint-plugin": "6.0.0",
     "@typescript-eslint/parser": "6.0.0",
     "autoprefixer": "^10.4.14",
+    "dotenv": "^16.3.1",
     "drizzle-kit": "^0.19.12",
     "eslint": "^8.47.0",
     "eslint-config-next": "^13.4.13",
