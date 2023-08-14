@@ -9,7 +9,7 @@ if (!DATABASE_URL || DATABASE_URL.length === 0)
   );
 
 const config: Config = {
-  schema: "./src/database/schemas.ts",
+  schema: "./src/database/schema.ts",
   driver: "mysql2",
   out: "./drizzle",
   dbCredentials: {
